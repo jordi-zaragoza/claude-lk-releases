@@ -14,7 +14,7 @@ Auto-sync context addon for Claude Code - no git dependency.
 ## Install
 
 ```bash
-curl -fsSL https://github.com/jordi-zaragoza/claude-lk-releases/releases/download/v1.3.8/install.sh | bash
+curl -fsSL https://github.com/jordi-zaragoza/claude-lk-releases/releases/download/v1.3.9/install.sh | bash
 ```
 
 ## Setup
