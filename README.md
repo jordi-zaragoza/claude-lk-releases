@@ -14,7 +14,7 @@ Auto-sync context addon for Claude Code - no git dependency.
 ## Install
 
 ```bash
-curl -fsSL https://github.com/jordi-zaragoza/claude-lk-releases/releases/download/v1.3.3/install.sh | bash
+curl -fsSL https://github.com/jordi-zaragoza/claude-lk-releases/releases/download/v1.3.4/install.sh | bash
 ```
 
 ## Setup
@@ -41,20 +41,9 @@ Context syncs automatically when you finish a session.
 
 ```bash
 claude-lk activate       # Activate license
-claude-lk serve          # Start MCP server
-claude-lk context        # View context
-claude-lk context -v     # Verbose output
-claude-lk context -t     # Token count
-```
-
-### DEV Commands (requires CLAUDE_LK_DEV=1)
-
-```bash
 claude-lk setup          # Configure AI + Claude Code
-claude-lk sync           # Sync files with AI
+claude-lk sync           # Manual sync
 claude-lk status         # Show status
-claude-lk generate-keys  # Generate RSA key pair
-claude-lk generate-license -e email@example.com  # Generate license
 ```
 
 ## How it works
